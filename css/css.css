@@ -1,0 +1,85 @@
+html, body{
+    font-family: 'Merienda One', cursive;  
+    height: 100%;
+}
+
+h1{
+    /* background-color: rgba(126, 51, 8, 0.774); */
+    color: rgba(126, 51, 8, 0.774);    
+    font-weight: bolder;
+    font-size: 40px;
+    width: 40%;
+    padding: 30px;
+    padding-bottom: 20px;
+    text-shadow: 10px 10px 10px black; 
+    
+}
+h4{
+    color: chocolate;
+    font-size: 35px;
+    width: 40%;
+    padding: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px black; 
+}
+.container{
+    /* background-color: darkslategray; */
+    color: chocolate;
+    width: 40%;
+    font-size: 25px;
+    padding: 30px;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-shadow: 10px 10px 10px black; 
+       
+}
+.containerOverall{
+    display: flex;   
+    flex-wrap: wrap; 
+    margin-left: 30px;
+}
+
+li{
+    text-shadow: 1px 1px 10px black; 
+}
+.containerGoal{
+    font-size: 20px;
+    padding: 30px;
+    border: 5px rgba(233, 99, 9, 0.336) solid;
+    width: 30%;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 10px black; 
+}
+.containerScore{  
+    font-size: 20px;
+    padding-top: 30px;
+    border: 5px rgba(233, 99, 9, 0.336) solid;
+    width: 10%;
+    text-align: center; 
+    color: white;      
+    text-shadow: 10px 10px 10px black; 
+}
+#imageContainer{
+
+    display: flex;
+    /* width: 40%; */
+    margin-left: 30px;    
+}
+
+img{    
+    width: 10%;    
+    padding-left: 20px;
+}
+
+.containerPoint{
+    font-size: 20px;
+    margin-left: 30px;
+    width: 40%;
+    border: 5px rgba(233, 99, 9, 0.336) solid;
+    text-shadow: 10px 10px 10px black; 
+    padding: 30px;
+    text-align: center;
+    color: white;    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Age of Empire 2 Resource Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer type="text/javascript" src="javascript/game.js"></script>
+</head>
+
+<body onload="runonStart()">
+    <header>
+        <h1>Age of Empire 2 Resource Collector</h1>
+    </header>
+
+    <!-- instruction container -->
+    <div class="container">
+        <h4>Intruction</h4>
+        <ul>
+            <li>This is a small fan-made Age of Empire Theme picture guessing game. The goal of the game is to gather
+                the exact amount of resources to upgrade. </li>
+            <br>
+
+            <li>There are 4 type of resource in AOE: Gold, Food, Stone and Wood correspond to the picture below. The
+                player will have to guess the amount of resource each picture produce to match up the final value. </li>
+            <br>
+
+            <li>At every upgrade, the amount of resource that each picture generate and the total needed will be
+                different. Each Loss will reset your progress. There are total of 4 ages in Age of Empire 2. Try to get
+                to it! Good luck!</li>
+        </ul>
+    </div>
+
+    <div class="containerOverall">
+        <!-- point to guess container -->
+        <div class="containerGoal">
+            <p>Amount of Resource needed: </p>
+            <br>
+            <p><span id="resource-to-guess"></span></p>
+        </div>
+
+        <!-- score container -->
+        <div class="containerScore">
+            <p id="winLoss"></p>
+            <p> Wins: <span id="win-Score"></span></p>
+            <br>
+            <p> Loss: <span id="loss-Score"></span></p>
+        </div>
+    </div>
+    <br>
+    <!-- image container -->
+    <div id="imageContainer"></div>
+    <br>
+    <!-- current Point container -->
+    <div class="containerPoint">
+        <p>Your current Point: </p>
+        <br>
+        <p id="total-point"></p>
+    </div>
+</body>
+
+</html>
