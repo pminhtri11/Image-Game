@@ -58,7 +58,7 @@ function runonStart() {
             {
                 $('body').css('background-image', 'url(images/DarkAge.PNG');    
                 $('body').css('background-size', '100%');
-                $('body').css('background-position', 'center');
+                $('body').css('background-position', 'center');                
             }
             if(wins == 2)
             {
@@ -77,7 +77,7 @@ function runonStart() {
                 $('body').css('background-image', 'url(images/ImperialAge.png');    
                 $('body').css('background-size', '100%');
                 $('body').css('background-position', 'center');
-                alert("Congratuation, You win the game! You can keep going to see what is your hightest score gonna be.")
+                setTimeout(function() { alert("Congratuation, You win the game! You can keep going to see what is your hightest score gonna be."); }, 1000);
             }
             runonStart();
         }
