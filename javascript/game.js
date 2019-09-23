@@ -3,17 +3,15 @@ $("#win-Score").text(wins);
 var loss = 0;
 $("#loss-Score").text(loss);
 $(document).ready(function() {
-    $('body').css('background-image', 'url(../images/AOE2.png');    
+    $('body').css('background-image', 'url(images/AOE2.png');    
     $('body').css('background-size', '100%');
     $('body').css('background-position', 'center');
-    // $('body').css('background-repeat', 'no-repeat');
 });
 
 
 function runonStart() {
     var userResource = 0;
     var computerGenerated = Math.floor(Math.random() * 102 + 19);
-    // var computerGenerated = Math.floor(Math.random() * 10 + 1);
     $("#resource-to-guess").text(computerGenerated);
 
 
@@ -58,25 +56,25 @@ function runonStart() {
             //adding some extra background for different win for the fun.
             if(wins == 1)
             {
-                $('body').css('background-image', 'url(../images/DarkAge.PNG');    
+                $('body').css('background-image', 'url(images/DarkAge.PNG');    
                 $('body').css('background-size', '100%');
                 $('body').css('background-position', 'center');
             }
             if(wins == 2)
             {
-                $('body').css('background-image', 'url(../images/FederalAge.PNG');    
+                $('body').css('background-image', 'url(images/FederalAge.PNG');    
                 $('body').css('background-size', '100%');
                 $('body').css('background-position', 'center');
             }
             if(wins == 3)
             {
-                $('body').css('background-image', 'url(../images/CastleAge.PNG');    
+                $('body').css('background-image', 'url(images/CastleAge.PNG');    
                 $('body').css('background-size', '100%');
                 $('body').css('background-position', 'center');
             }
             if(wins == 4)
             {
-                $('body').css('background-image', 'url(../images/ImperialAge.png');    
+                $('body').css('background-image', 'url(images/ImperialAge.png');    
                 $('body').css('background-size', '100%');
                 $('body').css('background-position', 'center');
                 alert("Congratuation, You win the game! You can keep going to see what is your hightest score gonna be.")
