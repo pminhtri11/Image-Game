@@ -4,4 +4,4 @@ There are 4 type of resource in AOE: Gold, Food, Stone and Wood correspond to th
 At every upgrade, the amount of resource that each picture generate and the total needed will be different. Each Loss will reset your progress. There are total of 4 ages in Age of Empire 2. Try to get
 to it! Good luck!
 
-# Deloyed: https://pminhtri11.github.io/Image-Game/
+Deloyed: https://pminhtri11.github.io/Image-Game/
